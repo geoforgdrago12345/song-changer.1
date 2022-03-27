@@ -23,7 +23,7 @@ function setup() {
 
 }
 function draw() {
-    image(video, 0, 0, 451, 450);
+    image(video, 0, 0, 450, 450);
     status = song.isPlaying();
     status2 = song2.isPlaying();
     if (score_leftwrist > 0.2) {
